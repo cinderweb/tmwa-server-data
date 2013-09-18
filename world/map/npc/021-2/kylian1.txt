@@ -1,0 +1,18 @@
+//kylian uses Nibble 6 of QUEST_NorthTulimshar
+//For his delivery service.
+//state 0 is for letter in hand for Nathan
+//state 1 is for when Nathan signs players sheet
+//state 2 is for Auldsbel letter in hand
+//state 3 is for Audsbel signing the players sheet
+//state 4 is for Dimonds letter
+//state 5 is for when Dimond signs the players sheet
+//state 6 is for Sagathas letter
+//state 7 is for when Sagatha signs players sheet
+//state 8 is for the caretakers letter
+//state 9 is for when the caretaker signs players sheet
+//state 10 is for when the player has Milers letter
+//state 11 is for when Miler has signed the players sheet
+//state 12 is for when the player has Connors letter
+//state 13 is for when Connor has signed the players sheet
+//state 14 is for when the quest is done
+021-2.gat,27,124,0|script|Kylian|193,
