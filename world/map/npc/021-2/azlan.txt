@@ -1,0 +1,54 @@
+//Azlan uses Nibble 6 of QUEST_NorthTulimshar
+//For his delivery service.
+//state==0 is for letter in hand for Nathan
+//state==1 is for when Nathan signs players sheet
+//state==2 is for Auldsbel letter in hand
+//state==3 is for Audsbel signing the players sheet
+//state==4 is for Dimonds letter
+//state==5 is for when Dimond signs the players sheet
+//state==6 is for Sagathas letter
+//state==7 is for when Sagatha signs players sheet
+//state==8 is for the caretakers letter
+//state==9 is for when the caretaker signs players sheet
+//state==10 is for when the player has Milers letter
+//state==11 is for when Miler has signed the players sheet
+//state==12 is for when the player has Connors letter
+//state==13 is for when Connor has signed the players sheet
+//state==14 is for when the quest is done
+021-2.gat,28,124,0|script|Azlan|120,
+{
+    mes"[Azlan]";
+    mes"\"Hello there and welcome to Kylian's Delivery Service!\"";
+    mes"\"Have you met our owner Kylian yet?\"";
+    mes"\"If you haven't you should before you come back here he may have some jobs for you and if you prove trustworthy enough I may have some for you as well.\"";
+    if(@Kylian < 4),
+        goto L_Close;
+    mes"\"You look like someone who could use some money and I'm in need of someone to give money to.\"";
+    mes"\"One catch though i need these seven letters delivered and signed for.\"";
+    mes"\"Think you can handle that?.\"";
+        menu
+            "How much does it pay?",L_Pay,
+            "Sure I'll do it.",L_Go;
+            "No thanks.",L_Close;
+L_Pay:
+    mes"[Azlan]";
+    mes"\"The job pays 500 gold pieces per signature plus expenses. It does not cover death expenses or funeral costs.\"";
+    mes"\"You will get your travel money up front plus enough for expenses. You will get your pay when you come back to me with a signature on this signature sheet.\"";
+    mes"\"So are you up for it or not?\"";
+        menu
+            "Okay I'll do it.",L_Go;
+            "No thanks,"L_Close;
+L_Go:
+    mes"[Azlan]";
+    mes"\"Okay then there's no expenses for this first one so it's simple enough.\""
+    mes"\"Go out to the caves in the desert and find Nathan, deliver this letter to him and have him sign the sheet.\"";
+    mes"\"he's had deliveries before so he knows the drill you may not even have to ask him to sign the sheet.\"";
+        set azlan @state, 0;
+        set azlan @state, 1;
+        goto L_Nextone;
+L_Nextone:
+    mes"\"Let me see your paper, good it's signed. Here's your money.\""
+    set zeny, zeny + 500
+L_Close:
+    set azlan @state, 14;
+    close;
