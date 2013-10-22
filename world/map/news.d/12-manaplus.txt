@@ -1,5 +1,5 @@
 {date:2013-01-31}
-
+{title: manaplus support}
 ManaPlus Support
 
 We have decided to support ManaPlus as an

@@ -1,5 +1,5 @@
 {date:2013-03-21}
-
+{title: easter event mileys hero}
 Today we have a content release.
 
 As always there are a number of bugfixes,

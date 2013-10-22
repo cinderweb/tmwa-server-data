@@ -1,5 +1,5 @@
 {date:2013-09-14}
-
+{title: more good astral magic}
 We have a small content release today.
 A witch in Tulimshar has found some daunting spells
 for mages who are experienced in Astral Magic.

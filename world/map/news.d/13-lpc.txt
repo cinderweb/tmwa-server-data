@@ -1,5 +1,5 @@
 {date:2013-02-18}
-
+{title: mana wins awards}
 This is a really exciting news entry!
 
 Congratulations to our sister project Mana ({link:http://manasource.org})

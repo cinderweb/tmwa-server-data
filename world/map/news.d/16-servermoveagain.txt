@@ -1,5 +1,5 @@
 {date:2013-03-17}
-
+{title: servermove to safer server}
 After the initial server move, The Mana World was subjected
 to a three day DoS attack.
 In response, we have moved a final time to a server that has

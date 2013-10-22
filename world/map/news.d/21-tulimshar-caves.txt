@@ -1,5 +1,5 @@
 {date:2013-06-29}
-
+{title: cave overhaul and malivox move and ferry goes to nivalis}
 This release brings a few new additions to the game:
 
 Wushin overhauled the desert caves with an awesome

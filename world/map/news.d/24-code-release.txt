@@ -1,4 +1,5 @@
 {date:2013-09-28}
+{title: restart}
 
 As you might have found out we had another restart yesterday.
 

@@ -1,4 +1,5 @@
 {date:2013-01-23}
+{title: news comes from single source}
 
 News feed is finally generated from the same
 source for both the game and the website.

@@ -1,5 +1,5 @@
 {date:2013-09-03}
-
+{title: capitalization, dark magic}
 {gray}First, a technical announcement. During a future
 restart, TMW will start requiring your username
 to exactly match the case that you signed up with.
