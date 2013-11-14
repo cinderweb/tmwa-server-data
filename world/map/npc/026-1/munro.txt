@@ -81,7 +81,7 @@ function|script|CheckMunro|,
     if ((gettime(6) == 12 && gettime(5) >= 23) || (gettime(6) == 12 && gettime(5) <= 26))
         goto L_Return;
 
-    // unequipbyid @slotId;
+    callfunc "UnequipCB";
 
 L_Return:
     return;
